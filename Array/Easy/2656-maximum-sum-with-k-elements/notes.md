@@ -1,6 +1,6 @@
 # Notes for Problem 2656 - Maximum Sum With Exactly K Elements
 
-link: https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/
+Link: https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/
 
 ## Key Concepts
 - **Maximizing Sum**: The goal is to select exactly `k` elements from the array `nums` to maximize their sum.
