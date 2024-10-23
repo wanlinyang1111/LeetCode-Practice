@@ -1,6 +1,6 @@
 # LeetCode Practice 📘✨
 
-This repository documents my LeetCode practice journey, focusing on both code and conceptual understanding.
+Hi! I'm Wanlin, a software engineering student currently sharpening my problem-solving skills through LeetCode. This repository documents my LeetCode practice journey, focusing on both code and conceptual understanding.
 
 ## Code 💻🔍
 Each solution is thoroughly commented, explaining the logic and purpose behind each step.
