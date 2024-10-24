@@ -3,7 +3,7 @@
 Link: https://leetcode.com/problems/rearrange-array-elements-by-sign/description/
 
 ## Key Concepts
-- **Maximizing Sum**: The goal is to select exactly `k` elements from the array `nums` to maximize their sum.
+- **The key concept of this problem is to rearrange an array of integers such that every consecutive pair consists of one positive and one negative number, while maintaining the original order of elements within their respective signs, starting with a positive integer.**
 
 ## Common Mistakes and How to Avoid Them 🛠️
 
