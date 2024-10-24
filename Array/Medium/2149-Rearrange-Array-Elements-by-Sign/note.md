@@ -1,4 +1,11 @@
-### Common Issues and Insights for Rearranging Array Elements by Sign 🛠️
+# Notes for Problem 2149 - Rearrange Array Elements by Sign
+
+Link: https://leetcode.com/problems/rearrange-array-elements-by-sign/description/
+
+## Key Concepts
+- **Maximizing Sum**: The goal is to select exactly `k` elements from the array `nums` to maximize their sum.
+
+## Common Mistakes and How to Avoid Them 🛠️
 
 1. **Using `for i in range` vs. `for i in range(len(...))`**:
    - **Error**: Using `for i in range:` without specifying `len(...)` can lead to unexpected results or an incomplete iteration.
