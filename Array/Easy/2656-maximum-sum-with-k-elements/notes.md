@@ -5,7 +5,7 @@ Link: https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/
 ## Key Concepts
 - **The key concept of this problem is to select exactly k elements from an array such that their sum is maximized.**
 
-## Common Mistakes and How to Avoid Them
+## 🛠️ Common Mistakes and How to Avoid Them
 
 ### 1. Incorrect Variable Usage
 - **Mistake**: Using `tem += score` instead of `score += tem`.
