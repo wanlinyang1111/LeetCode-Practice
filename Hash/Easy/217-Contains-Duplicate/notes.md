@@ -1,4 +1,4 @@
-# Notes for Problem number - 217. Contains Duplicate
+# Notes for Problem - 217. Contains Duplicate
 
 Link: https://leetcode.com/problems/contains-duplicate/
 
