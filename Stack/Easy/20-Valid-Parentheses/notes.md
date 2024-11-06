@@ -27,7 +27,7 @@ Link: https://leetcode.com/problems/valid-parentheses/description/
 - **Reason**: The stack requires a last-in, first-out (LIFO) approach, which depends on `pop` to remove the last element.
 - **How to Avoid**: Remember that stacks use `pop()` to match and remove elements in LIFO order.
 
-### 5. Using `char` Instead of `string`
-- **Error**: Using a generic name like `string` instead of `char`.
-- **Reason**: `char` is clearer for representing individual characters, which aligns with the purpose of the variable.
-- **How to Avoid**: Name the variable `char` to accurately describe its role as a single character in the iteration.
+### 5. Using `string` Instead of `char`
+- **Error**: Using `string` as the variable name when iterating over individual characters.
+- **Reason**: The variable represents each character in the string `s`, so `char` is a more accurate and descriptive name.
+- **How to Avoid**: Use `char` as the variable name to clearly indicate it refers to single characters rather than the entire string.
