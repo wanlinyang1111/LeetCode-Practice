@@ -31,4 +31,34 @@ Link: https://leetcode.com/problems/find-all-duplicates-in-an-array/
 - **Error**: Using `dict.items()` or `set.add()` incorrectly.
 - **Reason**: If you use a dictionary for counting (though it doesn’t meet the space requirement), you must use `dict.items()` for key-value pairs when printing.
 - **How to Avoid**: For sets, use `set.add()` for adding elements; avoid using `.append()` as it's not valid for sets. For dictionaries, use `.items()` to access both keys and values when printing.
+---
+
+## 📝 Alternative Intuitive Approach  
+
+**Explanation**:  
+A more intuitive way to solve this problem would be to use a data structure such as a `set` or `dict` to keep track of the numbers we've already seen. This is easier to understand because we directly check for duplicates without modifying the input array. However, it does not meet the O(1) auxiliary space requirement.
+
+### Example Code (Intuitive but Violates Space Complexity):  
+
+```python
+def findDuplicates(nums):
+    seen = set()
+    duplicates = []
+    for num in nums:
+        if num in seen:
+            duplicates.append(num)
+        else:
+            seen.add(num)
+    return duplicates
+### **Advantages**:
+- Simple and easy to understand for beginners.
+- Does not rely on in-place modifications, which can sometimes be error-prone.
+
+### **Disadvantages**:
+- Requires additional space proportional to the size of the input, thus violating the constant space requirement of the problem.
+
+### **When to Use**:
+- Use this approach when space complexity is not a strict requirement (e.g., during initial problem-solving or for conceptual clarity).
+- For interviews, make sure to highlight that you understand this trade-off and can switch to the more advanced approach when necessary.
+
 
