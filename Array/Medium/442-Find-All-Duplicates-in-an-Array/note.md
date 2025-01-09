@@ -50,6 +50,8 @@ def findDuplicates(nums):
         else:
             seen.add(num)
     return duplicates
+```
+
 ### **Advantages**:
 - Simple and easy to understand for beginners.
 - Does not rely on in-place modifications, which can sometimes be error-prone.
