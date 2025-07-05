@@ -6,7 +6,7 @@
 
 ## 🧠 Core Concept
 - Set-based uniqueness verification.
-- Efficient way to detect repeated entries in linear time.
+- Efficient way to detect repeated entries in linear time
 
 ## 🏢 Real-World Use Cases
 

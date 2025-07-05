@@ -12,7 +12,7 @@ class Solution:
 
         # Use enumerate to combine positive and negative numbers alternately
         for index, value in enumerate(pos_arr):
-            mod_arr.append(value)           # Add the positive number
+            mod_arr.append(value)           # Add the positive number.
             mod_arr.append(neg_arr[index]) # Add the corresponding negative number
 
         return mod_arr

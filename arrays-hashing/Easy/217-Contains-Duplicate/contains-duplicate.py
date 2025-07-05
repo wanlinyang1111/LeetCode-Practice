@@ -8,4 +8,4 @@ class Solution:
                 dic[num] = 1    # Add the number to the dictionary with a count of 1  
             else:               # If the number is found again, return True indicating a duplicate
                 return True  
-        return False            # If no duplicates were found, return False 
+        return False            # If no duplicates were found, return False. 

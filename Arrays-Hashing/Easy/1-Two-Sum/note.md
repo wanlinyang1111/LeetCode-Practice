@@ -3,7 +3,7 @@
 Link: https://leetcode.com/problems/two-sum/description/
 
 ## Key Concepts
-- **The key concept of this problem is using a hash table (dictionary) to store numbers and their indices**. This allows for fast look-up of the needed complement to reach the target sum.
+- **The key concept of this problem is using a hash table (dictionary) to store numbers and their indices**. This allows for fast look-up of the needed complement to reach the target sum
 
 ## 🛠️ Common Errors and How to Avoid Them
 

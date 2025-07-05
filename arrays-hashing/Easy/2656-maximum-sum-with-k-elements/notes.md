@@ -10,7 +10,7 @@ Link: https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/
 ### 1. Incorrect Variable Usage
 - **Error**: Using `tem += score` instead of `score += tem`.
 - **Reason**: This can lead to incorrect calculations of the total score.
-- **How to Avoid**: Always double-check variable names and ensure you're updating the correct variable in your calculations.
+- **How to Avoid**: Always double-check variable names and ensure you're updating the correct variable in your calculations
 
 ### 2. Indentation Issues
 - **Error**: Not maintaining consistent indentation within the function definition.

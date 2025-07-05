@@ -10,7 +10,7 @@ Link: https://leetcode.com/problems/number-of-good-pairs/
 ### 1. Incrementing `dic[i]` in the Correct Order:
 - **Error**: Updating `dic[i]` at the wrong point in the logic.
 - **Reason**: Changing `dic[i]` too early can impact the count of good pairs in the next line, leading to incorrect results.
-- **How to Avoid**: Ensure that `gp += dic[num]` executes before incrementing `dic[num]`. This way, you correctly count pairs before updating the frequency.
+- **How to Avoid**: Ensure that `gp += dic[num]` executes before incrementing `dic[num]`. This way, you correctly count pairs before updating the frequency
 
 ### 2. Initializing Variables to Match the Problem Requirements:
 - **Error**: Not aligning the initial variables or function purpose with the problem requirements.

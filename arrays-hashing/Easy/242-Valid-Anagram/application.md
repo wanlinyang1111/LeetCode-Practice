@@ -15,4 +15,4 @@
 - Helps detect reworded content or typo variants in document matching.
 
 ### 3. **Word Game Validations**
-- Backend logic for games like Scrabble or Boggle to verify legal moves.
+- Backend logic for games like Scrabble or Boggle to verify legal moves

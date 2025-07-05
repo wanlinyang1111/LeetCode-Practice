@@ -10,7 +10,7 @@ Link: https://leetcode.com/problems/find-all-duplicates-in-an-array/
 ### 1. Not Meeting Constant Space Requirement:
 - **Error**: Using data structures like `set` or `dict` for tracking duplicates.
 - **Reason**: This problem requires constant auxiliary space, meaning additional data structures that grow with input size are not allowed, except for the return array.
-- **How to Avoid**: Mark visited indices within the array itself, as the numbers fall within a range that allows in-place modifications.
+- **How to Avoid**: Mark visited indices within the array itself, as the numbers fall within a range that allows in-place modifications
 
 ### 2. Misinterpreting the Number Range:
 - **Error**: Incorrectly managing indices without considering the 1-based to 0-based index mapping.

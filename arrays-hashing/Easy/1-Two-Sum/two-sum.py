@@ -8,4 +8,4 @@ class Solution:
             if remain in num_to_index:                # Check if complement exists in the dictionary
                 return [index, num_to_index[remain]]  # Return current index and complement's index
             else:
-                num_to_index[num] = index             # Store current number and its index
+                num_to_index[num] = index             # Store current number and its index.
