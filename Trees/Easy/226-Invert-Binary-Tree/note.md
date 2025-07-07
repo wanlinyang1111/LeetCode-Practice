@@ -32,4 +32,4 @@ Link: https://leetcode.com/problems/invert-binary-tree/
 - **Error**: Tried to handle too many edge cases.
 - **Reason**: The only base case needed is `if not root: return None`.
 - **How to Avoid**: Keep recursion clean. For binary tree traversal, usually only one base case is enough.
-- 
+
